@@ -7,8 +7,17 @@
             "name": "Narayan",
             "homepage": ""
         }
-    ],    
+    ],
+    "repositories": [        
+        {
+            "type": "vcs",
+            "url": "https://github.com/darrencocco/Behat"
+        }
+    ],
     "autoload": {
         "psr-4": { "Mymonash\\BehatExcludeScenarioName\\": "src/" }
+    },
+    "require-dev": {     
+        "behat/behat": "dev-filter-extensions"
     }
 }
